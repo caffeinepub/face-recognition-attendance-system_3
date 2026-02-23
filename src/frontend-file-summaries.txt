@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component with enhanced tab-based navigation featuring icons (UserPlus, CheckSquare, FileText), improved active tab styling with shadows and scale effects, and smooth transition animations between workflow phases.",
+  "frontend/src/components/Layout.tsx": "Layout wrapper with refined header featuring improved spacing and shadow, enhanced branding with gradient text and icon, and polished footer with Heart icon and better typography hierarchy.",
+  "frontend/src/components/WebcamCapture.tsx": "Webcam capture component with enhanced camera preview styling, refined button layouts with icons (Camera, Aperture, CameraOff, RotateCcw, SwitchCamera), improved error handling display, and smooth transitions for all interactive elements.",
+  "frontend/src/components/PersonRegistration.tsx": "Person registration form with modern card styling, enhanced spacing and shadows, improved form validation with error states, refined button styles with loading states and icons, and smooth animations for success feedback.",
+  "frontend/src/components/AttendanceMarking.tsx": "Attendance marking interface with elegant person card grid featuring hover effects and scale transitions, enhanced selection states with rings and shadows, improved spacing and typography, and polished button styles with loading indicators.",
+  "frontend/src/components/AttendanceRecords.tsx": "Attendance records table with refined styling including distinct header backgrounds, comfortable row spacing with hover effects, enhanced filter controls with shadows, improved empty state design, and modern badge styling for status indicators.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching all attendance records and filtering records by date range from the backend.",
+  "frontend/src/hooks/usePersonStorage.ts": "Custom hook managing person data in local storage with base64-encoded face images, providing methods to load and add persons.",
+  "frontend/src/hooks/useAttendance.ts": "Custom hook for attendance operations including marking attendance and fetching records with optional date filtering.",
+  "frontend/src/index.css": "Enhanced global styles with refined OKLCH color palette featuring more vibrant teal and better contrast, comprehensive spacing/shadow/typography scales, smooth animations (fadeIn, slideIn, scaleIn), and improved form/button/table base styles with transitions.",
+  "frontend/tailwind.config.js": "Extended Tailwind configuration with enhanced teal and slate color palettes, custom spacing/shadow/typography scales, additional border radius values, smooth animation keyframes, and refined design tokens for professional appearance."
+}

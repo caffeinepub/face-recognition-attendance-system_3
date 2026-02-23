@@ -1,0 +1,188 @@
+{
+  "kind": "build_request",
+  "title": "Complete UI redesign with modern, professional interface and enhanced visual design",
+  "projectName": "Face Attendance Pro",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-9",
+      "text": "Redesign the entire application interface with a modern, polished visual style featuring refined spacing, improved visual hierarchy, professional card layouts with elegant shadows and borders, and smooth animations and micro-interactions throughout all components",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-recent"
+        ],
+        "quotes": [
+          "Modern, polished design with refined spacing and visual hierarchy",
+          "Professional card layouts with elegant shadows and borders",
+          "Smooth animations and micro-interactions throughout"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All components display refined spacing with consistent padding and margins",
+        "Visual hierarchy is clear with proper element sizing and prominence",
+        "Card components feature subtle shadows and elegant borders",
+        "Smooth CSS transitions are applied to interactive elements",
+        "Micro-interactions provide feedback on user actions (hover, click, focus states)"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Enhance the color palette by refining the existing teal and slate theme with better contrast ratios, richer accent colors, and improved readability while maintaining the professional aesthetic",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-recent"
+        ],
+        "quotes": [
+          "Enhanced teal/slate color palette with better contrast"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color contrast meets WCAG AA standards for text readability",
+        "Teal accent colors are more vibrant and visually appealing",
+        "Slate background tones provide better depth and layering",
+        "Color scheme remains cohesive across all components"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Implement tab-based navigation system to separate the three workflow phases: Registration, Attendance Marking, and Records View, with clear visual indicators showing the active tab and current workflow phase",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-recent"
+        ],
+        "quotes": [
+          "Tab-based navigation between Registration → Attendance Marking → Records View",
+          "Visual step indicators showing the current workflow phase",
+          "Distinct sections for each part of the process"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Tab navigation clearly separates the three workflow phases",
+        "Active tab is visually distinct with highlighted styling",
+        "Tab labels are clear and descriptive (Registration, Mark Attendance, View Records)",
+        "Clicking tabs smoothly transitions between phases",
+        "Current workflow phase is always visible to the user"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Add professional icons to each workflow phase and key actions throughout the application to improve visual communication and user guidance",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-recent"
+        ],
+        "quotes": [
+          "Professional icons for each action"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Each workflow phase tab displays an appropriate icon",
+        "Key actions (register, mark attendance, filter, refresh) have clear icons",
+        "Icons are consistent in style and size across the application",
+        "Icons enhance usability without cluttering the interface"
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "Refine typography throughout the application with strategic font weights, improved font sizes for better hierarchy, and enhanced readability for headers, body text, labels, and data displays",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-recent"
+        ],
+        "quotes": [
+          "Refined typography with strategic font weights and sizes"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page titles use bold, larger font sizes for prominence",
+        "Section headers have appropriate weight and size for hierarchy",
+        "Body text is easily readable with proper line height and letter spacing",
+        "Form labels are clear and properly sized",
+        "Table and data text is legible and well-formatted"
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Redesign all buttons with modern styling including refined shapes, improved hover effects with smooth transitions, clear active states, and consistent sizing across the application",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-recent"
+        ],
+        "quotes": [
+          "Modern button styles with polished hover effects"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Primary action buttons have prominent, modern styling",
+        "Secondary buttons are visually distinct from primary buttons",
+        "Hover effects include smooth color transitions and subtle scale/shadow changes",
+        "Disabled button states are clearly indicated",
+        "Button sizing is consistent and appropriate for their importance"
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "text": "Improve form layouts in the registration and attendance components with clean organization, clear labels positioned consistently, visible validation states with helpful error messages, and better input field styling",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-recent"
+        ],
+        "quotes": [
+          "Clean form layouts with clear labels and validation states"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Form fields are properly aligned and spaced",
+        "Labels are positioned consistently above or beside inputs",
+        "Input fields have modern styling with focus states",
+        "Validation errors display clearly with helpful messages",
+        "Required fields are clearly indicated"
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "text": "Redesign the attendance records table with elegant styling including improved column headers, better row spacing, zebra striping or subtle row hover effects for readability, and modern table borders",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-recent"
+        ],
+        "quotes": [
+          "Elegant table design for attendance records with better readability"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Table headers are visually distinct with appropriate font weight and background",
+        "Row spacing provides comfortable readability",
+        "Alternating row colors or hover effects improve data scanning",
+        "Table borders are subtle and modern",
+        "Empty state is handled gracefully with a clear message"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify the backend actor or data structures",
+    "Do not change the Internet Identity authentication implementation",
+    "Maintain existing functionality for webcam capture, person registration, attendance marking, and records filtering",
+    "Do not modify files in frontend/src/hooks/useInternetIdentity.ts, useActor.ts, or frontend/src/main.tsx",
+    "Preserve the existing teal and slate color foundation while enhancing it"
+  ],
+  "nonGoals": [
+    "Changing the backend data model or API",
+    "Adding new features beyond visual redesign",
+    "Implementing face recognition algorithms",
+    "Adding authentication changes",
+    "Modifying the core attendance tracking functionality"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

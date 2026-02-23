@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Main backend actor implementing attendance record storage with functions to add records, retrieve all records, and filter records by date range, including a blob storage mixin.",
+  "feature_evidence.json": "Feature evidence report documenting UI redesign features including modern styling, color palette enhancements, tab-based navigation, and icon additions with associated files and test IDs.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing enhanced UI components with modern styling, animations, icons, and improved user experience across all application views.",
+  "frontend/index.css": "Tailwind CSS configuration with custom CSS variables for light and dark themes using OKLCH color space, defining colors for backgrounds, borders, charts, and sidebar components.",
+  "frontend/index.html": "HTML entry point for the Face Recognition Attendance System application with root div and module script reference to main.tsx.",
+  "frontend/src/App.tsx": "Main React application component implementing tab-based navigation with three tabs (Registration, Mark Attendance, View Records) using shadcn/ui components and Lucide icons.",
+  "frontend/src/components/AttendanceMarking.tsx": "React component for marking attendance with person selection grid, loading states, success alerts, and integration with person storage and attendance hooks.",
+  "frontend/src/components/AttendanceRecords.tsx": "React component displaying attendance records in a table with date filtering via calendar popover, refresh functionality, and formatted timestamp display.",
+  "frontend/src/components/Layout.tsx": "Main layout component providing header with branding, main content area, and footer with copyright and caffeine.ai attribution. Uses gradient backgrounds and responsive design with sticky header.",
+  "frontend/src/components/PersonRegistration.tsx": "Form component for registering new persons with name input and webcam face capture. Handles validation, image capture/retake, and saves person data using usePersonStorage hook with success feedback.",
+  "frontend/src/components/WebcamCapture.tsx": "Webcam interface component using useCamera hook to capture photos with camera controls (start/stop, switch, retake). Displays video preview with mirroring for user-facing camera and handles captured image display.",
+  "frontend/src/hooks/useActor.ts": "React Query hook that creates and manages ICP backend actor instances based on Internet Identity authentication state. Automatically invalidates and refetches dependent queries when actor changes.",
+  "frontend/src/hooks/useAttendance.ts": "Hook for managing attendance records with filtering by date, marking attendance via backend actor, and sorting records by timestamp. Uses React Query for data fetching and mutations with automatic cache invalidation.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Context provider and hook for Internet Identity authentication using @dfinity/auth-client. Manages login state, identity persistence, and provides login/logout functions with configurable options.",
+  "frontend/src/hooks/usePersonStorage.ts": "Hook for managing person data in localStorage, converting uploaded face images to base64 data URLs. Provides functions to load and add persons with loading/adding states.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching attendance records from backend actor, including getAllRecords and getRecordsByDate with time range filtering. Queries are enabled only when actor is available.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a comprehensive design system including OKLCH color palette (teal/slate theme), spacing scale, shadows, border radius, typography, and dark mode variants.",
+  "frontend/src/main.tsx": "Application entry point that sets up React root with QueryClient for data fetching and InternetIdentityProvider for authentication, rendering the main App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the default theme with custom OKLCH color system, container settings, and plugins for typography, container queries, and animations.",
+  "project_state.json": "Project metadata tracking implemented features for a face recognition attendance system with tab-based navigation, including registration, attendance marking, and records viewing with modern teal/slate UI design."
+}
